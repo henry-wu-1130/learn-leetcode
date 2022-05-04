@@ -7,27 +7,26 @@ var findMaxConsecutiveOnes = function (nums) {
    * Compare each consecutive total with temporary total. if consecutive is bigger, override the temporary.
    */
   let n = 0;
-  let tmpT = 0; // temporary total
-  let conT = 0; // consecutive total
+  let comp = [0, 0]; // temporary total and consecutive total
 
   while (n < nums.length) {
     if (nums[n] === 1) {
-      conT++;
+      comp[1]++;
       // last one
       if (n === nums.length - 1) {
-        if (conT > tmpT) {
-          tmpT = conT;
+        if (comp[1] > comp[0]) {
+          comp[0] = comp[1];
         }
       }
     } else {
-      if (conT > tmpT) {
-        tmpT = conT;
+      if (comp[1] > comp[0]) {
+        comp[0] = comp[1];
       }
-      conT = 0;
+      comp[1] = 0;
     }
     n++;
   }
-  return tmpT;
+  return comp[0];
 };
 
 console.log(findMaxConsecutiveOnes([1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1]));
