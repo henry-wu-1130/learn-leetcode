@@ -2,6 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
+ // TODO 待優化，效能記憶體配置不是很好
 var findNumbers = function (nums) {
   let n = 0;
   let t = 0;
