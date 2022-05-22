@@ -27,3 +27,9 @@
 - [X]
 - [ ]
 - [ ]
+### removeDuplicates
+- [X]
+- [ ]
+- [ ]
+- [ ]
+### checkIfExists
