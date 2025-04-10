@@ -2,7 +2,7 @@
  * @param {number[]} arr
  * @return {boolean}
  */
-// TODO 效能記憶體極差 
+// TODO 效能記憶體極差
 var checkIfExist = function (arr) {
   const h = {};
   for (let i = 0; i < arr.length; i++) {
