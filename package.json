@@ -4,7 +4,7 @@
   "description": "",
   "main": "checkIfExist.js",
   "scripts": {
-    "start": "ts-node ./src/933.numberOfRecentCalls.ts"
+    "start": "ts-node ./src/560.subarraySum.ts"
   },
   "keywords": [],
   "author": "",
