@@ -23,7 +23,7 @@
 //   }
 // }
 
-function levelOrder(root: TreeNode | null): number[][] {
+function levelOrder2(root: TreeNode | null): number[][] {
   if (!root) return [];
 
   const queue = [root];
@@ -44,12 +44,10 @@ function levelOrder(root: TreeNode | null): number[][] {
   return order;
 }
 
-console.log(
-  levelOrder(
-    new TreeNode(
-      1,
-      new TreeNode(2, new TreeNode(4, null, null), new TreeNode(5, null, null)),
-      new TreeNode(3, null, null)
-    )
+levelOrder2(
+  new TreeNode(
+    1,
+    new TreeNode(2, new TreeNode(4, null, null), new TreeNode(5, null, null)),
+    new TreeNode(3, null, null)
   )
 );
