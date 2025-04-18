@@ -4,7 +4,7 @@
   "description": "",
   "main": "checkIfExist.js",
   "scripts": {
-    "start": "ts-node ./src/695.maxAreaOfIsland.ts"
+    "start": "ts-node ./src/649.predictPartyVictory.ts"
   },
   "keywords": [],
   "author": "",
