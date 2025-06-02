@@ -4,7 +4,7 @@
   "description": "",
   "main": "checkIfExist.js",
   "scripts": {
-    "start": "ts-node ./src/1372.longestZigZag.ts"
+    "start": "ts-node ./src/32.longestValidParentheses.ts"
   },
   "keywords": [],
   "author": "",
