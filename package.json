@@ -4,7 +4,7 @@
   "description": "",
   "main": "checkIfExist.js",
   "scripts": {
-    "start": "ts-node ./src/32.longestValidParentheses.ts"
+    "start": "ts-node ./src/1768.mergeAlternately.ts"
   },
   "keywords": [],
   "author": "",
