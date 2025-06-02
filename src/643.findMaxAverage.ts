@@ -14,18 +14,6 @@
 // }
 
 // Sliding window
-function findMaxAverage(nums: number[], k: number): number {
-  let sum = 0;
-  let max = -Infinity;
-  for (let i = 0; i < k; i++) {
-    sum += nums[i];
-  }
-  max = sum;
-  for (let right = k; right < nums.length; right++) {
-    sum += nums[right] - nums[right - k];
-    max = Math.max(max, sum);
-  }
-  return max / k;
-}
+function findMaxAverage(nums: number[], k: number): number {}
 
 findMaxAverage([5], 1); // expect 12.75
